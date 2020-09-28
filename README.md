@@ -12,26 +12,4 @@ The application was a educational project developed to improve coding skills. Th
 
 ## Screenshots
 
-<div style="display: flex; flex-direction: row; margin-bottom: 20px;">
-
-<div style="display: flex; flex: 0.5; margin: 10px;">
-    <img src="screenshots/login.png" alt="login screen" />
-</div>
-
-<div style="display: flex; flex: 0.5; margin: 10px;">
-    <img src="screenshots/signup.png" alt="signup screen" />
-</div>
-
-</div>
-
-<div style="display: flex; flex-direction: row;">
-
-<div style="display: flex; flex: 0.5; margin: 10px;">
-    <img src="screenshots/dashboard.png" alt="dashboard screen" />
-</div>
-
-<div style="display: flex; flex: 0.5; margin: 10px;">
-    <img src="screenshots/new-post.png" alt="new post screen" />
-</div>
-
-</div>
+See screenshots directory for see the resulting application.
