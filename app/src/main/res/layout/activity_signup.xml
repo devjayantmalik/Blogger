@@ -55,6 +55,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Signup Now"
+            android:onClick="onBtnSignupClick"
             android:layout_marginHorizontal="10dp"
             />
 
@@ -63,6 +64,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Back to Login"
+            android:onClick="onBtnLoginClick"
             android:layout_marginHorizontal="10dp"
             android:layout_weight="1"
             />
