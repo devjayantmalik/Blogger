@@ -1,6 +1,6 @@
 # Blogger Android Client
 
-The application was a educational project developed to improve coding skills. The overall goal of the project was to practice *Java* language concepts.
+The application was a educational project developed to improve coding skills. The overall goal of the project was to practice _Java_ language concepts.
 
 ## Project Assets
 
@@ -12,26 +12,26 @@ The application was a educational project developed to improve coding skills. Th
 
 ## Screenshots
 
-<div style="display: flex; flex-direction: row;">
+<div style="display: flex; flex-direction: row; margin-bottom: 20px;">
 
-<div style="display: flex; flex: 1">
-![Login Screen](screenshots/login.png)
+<div style="display: flex; flex: 0.5; margin: 10px;">
+    <img src="screenshots/login.png" alt="login screen" />
 </div>
 
-<div style="display: flex; flex: 1">
-![Signup Screen](screenshots/signup.png)
-</div>
-
-<div style="display: flex; flex: 1">
-![Dashboard Screen](screenshots/dashboard.png)
+<div style="display: flex; flex: 0.5; margin: 10px;">
+    <img src="screenshots/signup.png" alt="signup screen" />
 </div>
 
 </div>
 
 <div style="display: flex; flex-direction: row;">
 
-<div style="display: flex; flex: 1">
-![New Post Screen](screenshots/new-post.png)
+<div style="display: flex; flex: 0.5; margin: 10px;">
+    <img src="screenshots/dashboard.png" alt="dashboard screen" />
+</div>
+
+<div style="display: flex; flex: 0.5; margin: 10px;">
+    <img src="screenshots/new-post.png" alt="new post screen" />
 </div>
 
 </div>
