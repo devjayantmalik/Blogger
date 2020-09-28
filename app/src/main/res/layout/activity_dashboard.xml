@@ -46,6 +46,15 @@
             android:layout_marginTop="10dp"
             />
 
+        <Button
+            android:id="@+id/btnContactUs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Us"
+            android:onClick="onBtnContactUsClick"
+            android:layout_marginTop="10dp"
+            />
+
     </LinearLayout>
 
 

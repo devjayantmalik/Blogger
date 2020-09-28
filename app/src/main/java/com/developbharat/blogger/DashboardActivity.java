@@ -27,4 +27,9 @@ public class DashboardActivity extends AppCompatActivity {
 
     }
 
+    public void onBtnContactUsClick(View view){
+        Intent i = new Intent(getApplicationContext(), ContactActivity.class);
+        startActivity(i);
+    }
+
 }
