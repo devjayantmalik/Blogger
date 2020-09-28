@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="20dp"
     tools:context=".ContactActivity">
 
     <TextView
@@ -12,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="Contact Us"
+        android:textAlignment="center"
         android:textSize="20sp"
         />
 
@@ -26,6 +28,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Your Message or feedback"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:maxLines="7"
         />
 
     <Button
@@ -33,6 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="onBtnSendClick"
+        android:layout_marginTop="20dp"
         android:text="Send Message" />
 
 

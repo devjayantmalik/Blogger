@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import java.security.Security;
+
 public class ContactActivity extends AppCompatActivity {
 
     @Override
@@ -33,6 +35,8 @@ public class ContactActivity extends AppCompatActivity {
             manager.sendTextMessage("7015108956", null, message, null, null);
             Toast.makeText(getApplicationContext(), "Message Sent", Toast.LENGTH_LONG).show();
 
+        }catch(SecurityException ex){
+            Toast.makeText(getApplicationContext(), "Please allow permission of send sms and phone in application settings.", Toast.LENGTH_LONG).show();
         }catch(Exception ex){
             Toast.makeText(getApplicationContext(), ex.getMessage(), Toast.LENGTH_LONG).show();
         }
